@@ -1,0 +1,61 @@
+/* Reset de estilos para asegurar la consistencia en diferentes navegadores */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos básicos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centrar el contenido */
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* Estilos para los encabezados */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para las tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
